@@ -1,0 +1,86 @@
+body {
+  font-family: 'poppins';
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  max-width: 1440px;
+  margin: 0.1 auto;
+}
+
+.cabecalho .logo  {
+  width: 65px; 
+} 
+
+.cabecalho .menu {
+
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.cabecalho nav li a {
+  font-weight: bold;
+  color: #ac6b6b;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+
+.cabecalho nav li a:hover {
+  background-color: #746565;
+}
+
+.container {
+  background-color:#746565 ;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 132px);
+  padding: 0 30px 30px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 400px;
+  margin: 10;
+}
+
+.container .descricao {
+  color: #ac6b6b;
+  width: 85%;
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+.historia-container {
+  display: none;
+}
+
+.historia-container.visivel {
+  display: block;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.gallery img {
+	margin: 10px;
+	max-width: 200px;
+	height: auto;
+	cursor: pointer;
+	transition: transform 0.2s ease;
+}
+
+.gallery img:hover {
+	transform: scale(1.1);
+}
+
+
+

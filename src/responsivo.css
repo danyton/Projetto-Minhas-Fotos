@@ -1,0 +1,55 @@
+/* Estilos para telas maiores que 768px */
+@media only screen and (min-width: 768px) {
+    .cabecalho {
+      padding: 50px 100px;
+    }
+    .cabecalho nav li a {
+      font-size: 30px;
+      padding: 10px 30px;
+    }
+    .container {
+      width: 50%;
+    }
+  }
+  
+  /* Estilos para telas maiores que 576px */
+  @media only screen and (min-width: 576px) {
+    .cabecalho {
+      padding: 50px 50px;
+    }
+    .cabecalho .logo {
+      width: 50px;
+    }
+    .cabecalho nav li a {
+      font-size: 20px;
+      padding: 10px 20px;
+    }
+  }
+  
+  /* Estilos para telas menores que 576px */
+  @media only screen and (max-width: 576px) {
+    .cabecalho {
+      flex-direction: column;
+      padding: 50px 20px;
+    }
+    .cabecalho nav li {
+      margin: 10px 0;
+    }
+    .cabecalho nav li a {
+      font-size: 18px;
+      padding: 8px 15px;
+      border-radius: 30px;
+    }
+    .container {
+      width: 100%;
+    }
+    .container .descricao {
+      font-size: 16px;
+      margin: 20px 0;
+    }
+    .gallery img {
+      max-width: 150px;
+      margin: 5px;
+    }
+  }
+  
